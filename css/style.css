@@ -68,12 +68,12 @@ body {
 }
 .mail:hover,
 .mail:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .tel:hover,
 .tel:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 /* Секція герой */
@@ -155,11 +155,10 @@ body {
 }
 
 /* footer підвал*/
-.webstudio {
-/*  Підвал страницы */
+
 .footer {
   background-color: #2f303a;
-  }
+}
 /* Підвал сторінки логотип */
 .webstudio-footer {
   font-family: Raleway, sans-serif;
@@ -167,4 +166,68 @@ body {
   font-size: 26px;
   line-height: 31px;
   color: #ffffff;
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px1.71;
+  color: #ffffff;
+}
+
+.address a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.mail {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.mail:hover,
+.mail:focus {
+  color: #2196f3;
+}
+.tel {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.tel:hover,
+.tel:focus {
+  color: #2196f3;
+}
+
+/*портфоліо portfolio*/
+
+.button-menu {
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: #212121;
+  border: none;
+}
+
+.button-menu:hover {
+  background-color: #2196f3;
+}
+
+/* зразки технології*/
+.stitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.ptitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
 }
