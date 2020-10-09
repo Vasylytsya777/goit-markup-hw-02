@@ -56,6 +56,10 @@ body {
   color: #2196f3;
 }
 
+.nav-site .link-curent {
+  color: #2196f3;
+}
+
 /* Авторизація сайту */
 .nav-auth a {
   font-style: normal;
