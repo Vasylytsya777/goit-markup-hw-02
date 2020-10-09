@@ -76,6 +76,12 @@ body {
   color: #2196f3;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+}
 /* Секція герой */
 .section-hero {
   background-color: #2f303a;
@@ -123,7 +129,6 @@ body {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-
   color: var(--primary-text-color);
 }
 
@@ -214,6 +219,7 @@ body {
 
 .button-menu:hover {
   background-color: #2196f3;
+  color: #ffffff;
 }
 
 /* зразки технології*/
