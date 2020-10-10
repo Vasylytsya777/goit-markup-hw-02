@@ -235,7 +235,10 @@ body {
   color: #ffffff;
 }
 
-/* зразки технології*/
+/* секція робіт з картинками*/
+.samples-list {
+  list-style: none;
+}
 .stitle {
   font-weight: 700;
   font-size: 18px;
