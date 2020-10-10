@@ -80,12 +80,20 @@ body {
   color: #2196f3;
 }
 
+/*скриваємо заголовок*/
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
 }
+
+/*скриваємо заголовок */
+/*.visually-hidden {
+  display: none;
+}
+*/
+
 /* Секція герой */
 .section-hero {
   background-color: #2f303a;
