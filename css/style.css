@@ -3,7 +3,7 @@
 /* Білий #FFFFFF; */
 /* Колір акценту #2196F3; */
 /* Колір main+footer #2f303a; */
-*/* {
+/* {
   margin: 0;
   padding: 0;
 }
@@ -22,9 +22,7 @@ body {
   letter-spacing: 0.03em;
 }
 /* Шапка сторінки */
-.header {
-  background: #ffffff;
-}
+
 /* Лого */
 .webstudio {
   font-family: Raleway, sans-serif;
@@ -86,9 +84,11 @@ body {
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
+  overflow: hidden;
 }
 
 /*скриваємо заголовок */
+
 /*.visually-hidden {
   display: none;
 }
@@ -124,7 +124,7 @@ body {
 .section-features .caption {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.1x;
+  line-height: 1.1;
   text-transform: uppercase;
   color: #212121;
 }
@@ -140,7 +140,7 @@ body {
 .section-ourwork .caption {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2px;
   text-align: center;
   color: var(--primary-text-color);
 }
@@ -191,7 +191,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px1.71;
+  line-height: 1.71;
   color: #ffffff;
 }
 
@@ -222,6 +222,8 @@ body {
 
 .button-menu {
   background-color: #f5f4fa;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
